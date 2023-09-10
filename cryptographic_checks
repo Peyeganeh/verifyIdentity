@@ -1,0 +1,5 @@
+function verified = verifyIdentity(node)
+    % This function is a mock-up.
+    % In reality, you'd have some cryptographic checks here.
+    verified = rand() > 0.1; % Randomly verify with 90% success.
+end
